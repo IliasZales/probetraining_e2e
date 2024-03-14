@@ -1,0 +1,56 @@
+# Abhängigkeiten
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Log-Dateien
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Verzeichnis für generierte Dateien
+/dist
+/build
+
+# dotenv Umgebungsvariablen-Dateien
+.env
+.env.test
+
+# Editor Verzeichnisse und Dateien
+/.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generierte Dateien
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Optional npm cache
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional TypeScript cache
+*.tsbuildinfo
+
+# Optional JetBrains IDEs
+.idea/
+
+# Output von 'ncc' (verwendet z.B. von Vercel)
+/.ncc/
